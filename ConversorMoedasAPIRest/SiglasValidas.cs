@@ -5,7 +5,7 @@ namespace ConversorMoedasAPIRest
     public class SiglasValidas//Classe que servirá para verificação das siglas permitidas.
     {
         public string Siglas { get; private set; }
-        private readonly string path = "SiglasMoedas.txt";//As siglas foram retiradas desses site https://pt.iban.com/currency-codes
+        private readonly string path = "SiglasMoedas.txt";//As siglas foram retiradas desse site https://pt.iban.com/currency-codes
 
         public SiglasValidas()
         {
